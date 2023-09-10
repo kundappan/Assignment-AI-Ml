@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-
-# In[2]:
-
-
 from googletrans import Translator 
 # Function to convert English text to Hinglish
 def translate_to_hinglish(text):
@@ -44,7 +32,7 @@ def translate_to_hinglish(text):
     return hinglish_text
 
 # Input English text
-input_text = "hi how aew you i am fine ."
+input_text = "hi how aew you ."
 
 # Translate to Hinglish
 hinglish_text = translate_to_hinglish(input_text)
@@ -53,7 +41,8 @@ hinglish_text = translate_to_hinglish(input_text)
 print(hinglish_text)
 
 
-# In[ ]:
+#A Sample Output along with the inputs given
+नमस्ते कैसे एक प्रकार का
 
 
 
